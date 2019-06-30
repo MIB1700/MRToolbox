@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "stepSequencer">
+	<slot number = "1">
+		<pattr name = "pattern" value = "0 0 4 7 7 4" />
+		<pattr name = "velocities" value = "0.259843 0.464567 0.669291 1." />
+		<pattr name = "slider1" value = "64" />
+		<pattr name = "slider2" value = "64" />
+		<pattr name = "slider3" value = "64" />
+		<pattr name = "slider4" value = "64" />
+		<pattr name = "slider5" value = "64" />
+		<pattr name = "slider6" value = "64" />
+		<pattr name = "slider7" value = "64" />
+		<pattr name = "slider8" value = "0" />
+		<pattr name = "slider9" value = "64" />
+		<pattr name = "slider10" value = "64" />
+		<pattr name = "slider11" value = "64" />
+		<pattr name = "slider12" value = "64" />
+		<pattr name = "slider13" value = "64" />
+	</slot>
+	<slot number = "2">
+		<pattr name = "pattern" value = "0 0 4 7 7 4 9 4 2 10 4 1" />
+		<pattr name = "velocities" value = "0.259843 0.464567 0.669291 1." />
+		<pattr name = "slider1" value = "64" />
+		<pattr name = "slider2" value = "64" />
+		<pattr name = "slider3" value = "64" />
+		<pattr name = "slider4" value = "64" />
+		<pattr name = "slider5" value = "0" />
+		<pattr name = "slider6" value = "64" />
+		<pattr name = "slider7" value = "64" />
+		<pattr name = "slider8" value = "63" />
+		<pattr name = "slider9" value = "64" />
+		<pattr name = "slider10" value = "64" />
+		<pattr name = "slider11" value = "64" />
+		<pattr name = "slider12" value = "64" />
+		<pattr name = "slider13" value = "64" />
+	</slot>
+	<slot number = "3">
+		<pattr name = "pattern" value = "0 0 4 3 9 1 7 7 4 7 9 1 9 4 2 10 4 1 11 9 1 14 9 1" />
+		<pattr name = "velocities" value = "0.259843 0.464567 0.669291 1." />
+		<pattr name = "slider1" value = "64" />
+		<pattr name = "slider2" value = "64" />
+		<pattr name = "slider3" value = "64" />
+		<pattr name = "slider4" value = "64" />
+		<pattr name = "slider5" value = "62" />
+		<pattr name = "slider6" value = "64" />
+		<pattr name = "slider7" value = "64" />
+		<pattr name = "slider8" value = "34" />
+		<pattr name = "slider9" value = "64" />
+		<pattr name = "slider10" value = "0" />
+		<pattr name = "slider11" value = "64" />
+		<pattr name = "slider12" value = "64" />
+		<pattr name = "slider13" value = "64" />
+	</slot>
+	<slot number = "4">
+		<pattr name = "pattern" value = "0 0 4 2 2 1 3 9 1 5 2 4 7 7 4 7 9 1 9 4 2 10 4 1 11 2 3 11 9 1 14 9 1" />
+		<pattr name = "velocities" value = "0.259843 0.464567 0.669291 1." />
+		<pattr name = "slider1" value = "64" />
+		<pattr name = "slider2" value = "64" />
+		<pattr name = "slider3" value = "27" />
+		<pattr name = "slider4" value = "64" />
+		<pattr name = "slider5" value = "62" />
+		<pattr name = "slider6" value = "64" />
+		<pattr name = "slider7" value = "64" />
+		<pattr name = "slider8" value = "34" />
+		<pattr name = "slider9" value = "64" />
+		<pattr name = "slider10" value = "92" />
+		<pattr name = "slider11" value = "64" />
+		<pattr name = "slider12" value = "64" />
+		<pattr name = "slider13" value = "64" />
+	</slot>
+	<slot number = "5">
+		<pattr name = "pattern" value = "0 0 4 2 2 1 3 9 1 5 2 4 7 7 4 7 9 1 9 4 2 10 4 1 11 2 3 11 9 1 13 0 2 14 9 1" />
+		<pattr name = "velocities" value = "0.259843 0.464567 0.669291 1." />
+		<pattr name = "slider1" value = "42" />
+		<pattr name = "slider2" value = "64" />
+		<pattr name = "slider3" value = "27" />
+		<pattr name = "slider4" value = "64" />
+		<pattr name = "slider5" value = "62" />
+		<pattr name = "slider6" value = "64" />
+		<pattr name = "slider7" value = "64" />
+		<pattr name = "slider8" value = "34" />
+		<pattr name = "slider9" value = "64" />
+		<pattr name = "slider10" value = "92" />
+		<pattr name = "slider11" value = "64" />
+		<pattr name = "slider12" value = "64" />
+		<pattr name = "slider13" value = "64" />
+	</slot>
+	<slot number = "6">
+		<pattr name = "pattern" value = "0 0 4 1 6 2 1 11 4 1 12 3 2 2 1 2 10 2 3 3 4 3 8 4 3 9 1 4 3 2 4 12 4 5 2 4 5 3 1 5 12 3 6 1 2 6 10 2 6 12 2 7 7 4 7 9 1 7 11 4 8 12 1 9 4 2 9 8 4 10 4 1 10 10 2 11 2 3 11 9 1 11 11 4 12 5 4 13 0 2 13 12 2 14 6 4 14 9 1 15 6 3 15 8 4 15 11 4" />
+		<pattr name = "velocities" value = "0.259843 0.464567 0.669291 1." />
+		<pattr name = "slider1" value = "42" />
+		<pattr name = "slider2" value = "64" />
+		<pattr name = "slider3" value = "27" />
+		<pattr name = "slider4" value = "49" />
+		<pattr name = "slider5" value = "34" />
+		<pattr name = "slider6" value = "58" />
+		<pattr name = "slider7" value = "43" />
+		<pattr name = "slider8" value = "46" />
+		<pattr name = "slider9" value = "0" />
+		<pattr name = "slider10" value = "92" />
+		<pattr name = "slider11" value = "0" />
+		<pattr name = "slider12" value = "0" />
+		<pattr name = "slider13" value = "0" />
+	</slot>
+	<slot number = "7">
+		<pattr name = "pattern" value = "0 0 4 1 6 2 1 11 4 1 12 3 2 2 1 2 10 2 3 3 4 3 8 4 3 9 1 4 3 2 4 12 4 5 2 4 5 3 1 5 12 3 6 1 2 6 10 2 6 12 2 7 7 4 7 9 1 7 11 4 8 12 1 9 4 2 9 8 4 10 4 1 10 10 2 11 2 3 11 9 1 11 11 4 12 5 4 13 0 2 13 12 2 14 6 4 14 9 1 15 6 3 15 8 4 15 11 4" />
+		<pattr name = "velocities" value = "0.259843 0.464567 0.669291 1." />
+		<pattr name = "slider1" value = "42" />
+		<pattr name = "slider2" value = "64" />
+		<pattr name = "slider3" value = "27" />
+		<pattr name = "slider4" value = "41" />
+		<pattr name = "slider5" value = "34" />
+		<pattr name = "slider6" value = "58" />
+		<pattr name = "slider7" value = "43" />
+		<pattr name = "slider8" value = "46" />
+		<pattr name = "slider9" value = "0" />
+		<pattr name = "slider10" value = "92" />
+		<pattr name = "slider11" value = "67" />
+		<pattr name = "slider12" value = "0" />
+		<pattr name = "slider13" value = "0" />
+	</slot>
+	<slot number = "8">
+		<pattr name = "pattern" value = "0 0 4 1 6 2 1 11 4 1 12 1 2 2 1 2 10 2 3 3 4 3 8 4 3 9 1 4 3 2 4 12 4 5 2 4 5 3 1 5 12 3 6 1 2 6 10 2 6 12 2 7 7 4 7 9 1 7 11 4 8 12 1 9 4 2 9 8 4 10 4 1 10 10 2 11 2 3 11 9 1 11 11 4 12 5 4 13 0 2 13 12 2 14 6 4 14 9 1 15 6 3 15 8 4 15 11 4" />
+		<pattr name = "velocities" value = "0.259843 0.464567 0.669291 1." />
+		<pattr name = "slider1" value = "42" />
+		<pattr name = "slider2" value = "64" />
+		<pattr name = "slider3" value = "27" />
+		<pattr name = "slider4" value = "41" />
+		<pattr name = "slider5" value = "34" />
+		<pattr name = "slider6" value = "58" />
+		<pattr name = "slider7" value = "43" />
+		<pattr name = "slider8" value = "46" />
+		<pattr name = "slider9" value = "0" />
+		<pattr name = "slider10" value = "92" />
+		<pattr name = "slider11" value = "67" />
+		<pattr name = "slider12" value = "0" />
+		<pattr name = "slider13" value = "74" />
+	</slot>
+	<slot number = "9">
+		<pattr name = "pattern" value = "0 0 4 1 6 2 1 11 4 1 12 1 2 2 1 2 10 2 3 3 4 3 8 4 3 9 1 4 3 2 4 12 4 5 2 4 5 3 1 5 12 3 6 1 2 6 10 2 6 12 2 7 7 4 7 9 1 7 11 4 8 12 1 9 4 2 9 8 4 10 4 1 10 10 2 11 2 3 11 9 1 11 11 4 12 5 4 13 0 2 13 12 2 14 6 4 14 9 1 15 6 3 15 8 4 15 11 4" />
+		<pattr name = "velocities" value = "0.259843 0.464567 0.669291 1." />
+		<pattr name = "slider1" value = "42" />
+		<pattr name = "slider2" value = "64" />
+		<pattr name = "slider3" value = "27" />
+		<pattr name = "slider4" value = "41" />
+		<pattr name = "slider5" value = "34" />
+		<pattr name = "slider6" value = "58" />
+		<pattr name = "slider7" value = "43" />
+		<pattr name = "slider8" value = "46" />
+		<pattr name = "slider9" value = "0" />
+		<pattr name = "slider10" value = "92" />
+		<pattr name = "slider11" value = "67" />
+		<pattr name = "slider12" value = "60" />
+		<pattr name = "slider13" value = "74" />
+	</slot>
+	<slot number = "10">
+		<pattr name = "pattern" value = "0 0 4 1 6 2 1 11 4 1 12 1 2 2 1 2 10 2 3 3 4 3 8 4 3 9 1 4 3 2 4 12 4 5 2 4 5 3 1 5 12 3 6 1 2 6 10 2 6 12 2 7 7 4 7 9 1 7 11 4 8 12 1 9 4 2 9 8 4 10 4 1 10 10 2 11 2 3 11 9 1 11 11 4 12 5 4 13 0 2 13 12 2 14 6 4 14 9 1 15 6 3 15 8 4 15 11 4" />
+		<pattr name = "velocities" value = "0.259843 0.464567 0.669291 1." />
+		<pattr name = "slider1" value = "42" />
+		<pattr name = "slider2" value = "64" />
+		<pattr name = "slider3" value = "27" />
+		<pattr name = "slider4" value = "41" />
+		<pattr name = "slider5" value = "34" />
+		<pattr name = "slider6" value = "58" />
+		<pattr name = "slider7" value = "43" />
+		<pattr name = "slider8" value = "46" />
+		<pattr name = "slider9" value = "28" />
+		<pattr name = "slider10" value = "92" />
+		<pattr name = "slider11" value = "67" />
+		<pattr name = "slider12" value = "60" />
+		<pattr name = "slider13" value = "74" />
+	</slot>
+	<slot number = "11">
+		<pattr name = "pattern" value = "0 0 4 1 6 2 1 11 4 1 12 1 2 2 1 2 10 2 3 3 4 3 8 4 3 9 1 4 3 2 4 12 4 5 2 4 5 3 1 5 12 3 6 1 2 6 10 2 6 12 2 7 7 4 7 9 1 7 11 4 8 12 1 9 4 2 9 8 4 10 4 1 10 10 2 11 2 3 11 9 1 11 11 4 12 5 4 13 0 2 13 12 2 14 6 4 14 9 1 15 6 3 15 8 4 15 11 4" />
+		<pattr name = "velocities" value = "1. 0.666667 0.456522 0.23913" />
+		<pattr name = "slider1" value = "42" />
+		<pattr name = "slider2" value = "64" />
+		<pattr name = "slider3" value = "27" />
+		<pattr name = "slider4" value = "41" />
+		<pattr name = "slider5" value = "34" />
+		<pattr name = "slider6" value = "58" />
+		<pattr name = "slider7" value = "43" />
+		<pattr name = "slider8" value = "46" />
+		<pattr name = "slider9" value = "28" />
+		<pattr name = "slider10" value = "92" />
+		<pattr name = "slider11" value = "67" />
+		<pattr name = "slider12" value = "60" />
+		<pattr name = "slider13" value = "74" />
+	</slot>
+</pattrstorage>
+

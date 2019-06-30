@@ -1,0 +1,2 @@
+if you already have these files from an earlier download in a different location
+in your searchpath, don't unzip them. Check periodically if there are newer versions!
