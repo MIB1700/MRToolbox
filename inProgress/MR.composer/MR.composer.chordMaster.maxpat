@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 928.0, 470.0 ],
+		"rect" : [ 129.0, 79.0, 928.0, 470.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -159,7 +159,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -377,7 +376,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ 0, 0, 0, 0, 0, 0, 0, 0 ],
@@ -674,7 +672,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"args" : [ 0, 0, 0, 0, 0, 0, 0, 0 ],
@@ -783,7 +780,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgmode" : 0,
@@ -1190,161 +1186,161 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-32::obj-17::obj-24::obj-31::obj-12::obj-12::obj-28" : [ "textbutton[4]", "textbutton", 0 ],
-			"obj-32::obj-17::obj-24::obj-2::obj-12::obj-28" : [ "textbutton[7]", "textbutton", 0 ],
 			"obj-7::obj-15::obj-4::obj-3::obj-28" : [ "textbutton[1]", "textbutton", 0 ],
-			"obj-32::obj-17::obj-24::obj-18::obj-28" : [ "textbutton[3]", "textbutton", 0 ],
-			"obj-32::obj-17::obj-24::obj-51::obj-1::obj-9::obj-12::obj-28" : [ "textbutton[6]", "textbutton", 0 ],
-			"obj-32::obj-17::obj-100::obj-6::obj-28" : [ "textbutton[9]", "textbutton", 0 ],
 			"obj-32::obj-17::obj-24::obj-51::obj-1::obj-3::obj-28" : [ "textbutton[5]", "textbutton", 0 ],
 			"obj-32::obj-17::obj-68::obj-6::obj-12::obj-28" : [ "textbutton[10]", "textbutton", 0 ],
+			"obj-32::obj-17::obj-24::obj-18::obj-28" : [ "textbutton[3]", "textbutton", 0 ],
+			"obj-32::obj-17::obj-5::obj-12::obj-12::obj-28" : [ "textbutton[8]", "textbutton", 0 ],
+			"obj-32::obj-17::obj-24::obj-51::obj-1::obj-9::obj-12::obj-28" : [ "textbutton[6]", "textbutton", 0 ],
+			"obj-32::obj-17::obj-24::obj-31::obj-12::obj-12::obj-28" : [ "textbutton[4]", "textbutton", 0 ],
+			"obj-32::obj-17::obj-100::obj-6::obj-28" : [ "textbutton[9]", "textbutton", 0 ],
 			"obj-7::obj-15::obj-4::obj-9::obj-12::obj-28" : [ "textbutton[2]", "textbutton", 0 ],
-			"obj-32::obj-17::obj-5::obj-12::obj-12::obj-28" : [ "textbutton[8]", "textbutton", 0 ]
+			"obj-32::obj-17::obj-24::obj-2::obj-12::obj-28" : [ "textbutton[7]", "textbutton", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "MR.composer.toNaProBP.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/inProgress/MR.composer/lib",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MR.composer/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MR.list.iter.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/done/MR.list/MR.list.iter",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/done/MR.list/MR.list.iter",
 				"patcherrelativepath" : "../../done/MR.list/MR.list.iter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MR.composer.playbackBP.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/inProgress/MR.composer/lib",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MR.composer/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MR.composer.chordMakerBP.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/inProgress/MR.composer/lib",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MR.composer/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MRt.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/Max 5/done",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/Max 5/done",
 				"patcherrelativepath" : "../../Max 5/done",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MRr_.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/Max 5/done/MRr",
-				"patcherrelativepath" : "../../Max 5/done/MRr",
+				"bootpath" : "~/Documents/Music/Max/Max7/Cecilia/SimpleInteraction_001/patchers",
+				"patcherrelativepath" : "../../../Max7/Cecilia/SimpleInteraction_001/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "multiName_.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/Max 5/done/MRr/lib",
-				"patcherrelativepath" : "../../Max 5/done/MRr/lib",
+				"bootpath" : "~/Documents/Music/Max/Max7/Cecilia/SimpleInteraction_001/patchers",
+				"patcherrelativepath" : "../../../Max7/Cecilia/SimpleInteraction_001/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MR.composer.instrRangeBP.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/inProgress/MR.composer/lib",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MR.composer/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MR.composer.chordMultiplierBP.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/inProgress/MR.composer/lib",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MR.composer/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MR.list.interval.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/done/MR.list/MR.list.interval",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/done/MR.list/MR.list.interval",
 				"patcherrelativepath" : "../../done/MR.list/MR.list.interval",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MRabstractionPrintBP.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/done/MRabstractionPrint",
-				"patcherrelativepath" : "../../done/MRabstractionPrint",
+				"bootpath" : "~/Documents/Music/Max/Max7/Cecilia/SimpleInteraction_001/patchers",
+				"patcherrelativepath" : "../../../Max7/Cecilia/SimpleInteraction_001/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MRzlAutoSize.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/inProgress/MRzlAutoSize",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MRzlAutoSize",
 				"patcherrelativepath" : "../MRzlAutoSize",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MR.composer.pitchClockBP.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/inProgress/MR.composer/lib",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MR.composer/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MRpitchClock.js",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/inProgress/MR.composer/lib",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MR.composer/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MR.composer.chordMorpherBP.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/inProgress/MR.composer/lib",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MR.composer/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MR.list.stretch.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/done/MR.list/MR.list.stretch",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/done/MR.list/MR.list.stretch",
 				"patcherrelativepath" : "../../done/MR.list/MR.list.stretch",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MR.list.clip.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/done/MR.list/MR.list.clip",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/done/MR.list/MR.list.clip",
 				"patcherrelativepath" : "../../done/MR.list/MR.list.clip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MRrange.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/inProgress/MRrange",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MRrange",
 				"patcherrelativepath" : "../MRrange",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MRuzi.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/done/MRuzi",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/done/MRuzi",
 				"patcherrelativepath" : "../../done/MRuzi",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MRs_.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/Max 5/done/MRr",
-				"patcherrelativepath" : "../../Max 5/done/MRr",
+				"bootpath" : "~/Documents/Music/Max/Max7/Cecilia/SimpleInteraction_001/patchers",
+				"patcherrelativepath" : "../../../Max7/Cecilia/SimpleInteraction_001/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MR.composer.harmonicSeriesGenerator.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/inProgress/MR.composer/lib",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MR.composer/lib",
 				"patcherrelativepath" : "./lib",
 				"type" : "JSON",
 				"implicit" : 1
