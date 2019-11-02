@@ -38,6 +38,34 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-4",
+					"index" : 2,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 223.0, 346.0, 30.0, 30.0 ],
+					"presentation_rect" : [ 223.0, 348.0, 0.0, 0.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-3",
+					"index" : 2,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 160.0, 19.0, 30.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "MRtoPoly", 2019, 1, 1, 0, 0, 0, 0 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -317,7 +345,7 @@
 									"presentation_rect" : [ 2.0, 22.0, 140.886726, 21.195312 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
-											"parameter_longname" : "textbutton[3]",
+											"parameter_longname" : "textbutton[5]",
 											"parameter_shortname" : "textbutton",
 											"parameter_type" : 3,
 											"parameter_invisible" : 1
@@ -770,9 +798,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 170.0, 158.0, 50.0, 22.0 ],
+									"patching_rect" : [ 170.0, 158.0, 60.0, 22.0 ],
 									"style" : "",
-									"text" : "0"
+									"text" : "14 19 5 4"
 								}
 
 							}
@@ -1191,7 +1219,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1204,7 +1232,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1238,6 +1266,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"midpoints" : [ 116.5, 267.5, 42.5, 267.5 ],
 					"source" : [ "obj-38", 0 ]
@@ -1246,8 +1281,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"midpoints" : [ 266.5, 324.5, 42.5, 324.5 ],
+					"destination" : [ "obj-4", 0 ],
+					"midpoints" : [ 266.5, 324.5, 232.5, 324.5 ],
 					"source" : [ "obj-38", 1 ]
 				}
 
@@ -1282,19 +1317,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-12::obj-28" : [ "textbutton[3]", "textbutton", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "MRabstractionPrintBP.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/done/MRabstractionPrint",
-				"patcherrelativepath" : "../../done/MRabstractionPrint",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
