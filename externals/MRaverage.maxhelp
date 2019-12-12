@@ -2,14 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 5,
+			"major" : 8,
+			"minor" : 1,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 100.0, 100.0, 781.0, 683.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 100.0, 100.0, 891.0, 666.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -38,13 +39,38 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-38",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 685.5, 585.0, 158.0, 18.0 ],
+					"text" : "increased size limit to 4096"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-41",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 694.5, 565.0, 140.0, 18.0 ],
+					"text" : "update to SDK 8.0.3 - 2019"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-40",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 217.0, 558.0, 150.0, 29.0 ],
-					"style" : "",
 					"text" : "float arguments are truncated right now"
 				}
 
@@ -58,9 +84,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 571.5, 537.0, 158.0, 96.0 ],
-					"presentation_rect" : [ 572.5, 546.0, 0.0, 0.0 ],
-					"style" : "",
+					"patching_rect" : [ 685.5, 426.0, 158.0, 96.0 ],
 					"text" : "added: clear message to reset internal buffer/array to 0\n\nadded: \"average\" message\n\nadded: increased internal buffer and sample size limit to 2048 values"
 				}
 
@@ -73,9 +97,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 580.5, 518.0, 140.0, 18.0 ],
-					"presentation_rect" : [ 582.0, 577.0, 0.0, 0.0 ],
-					"style" : "",
+					"patching_rect" : [ 694.5, 407.0, 140.0, 18.0 ],
 					"text" : "update to SDK 7.3.3 - 2018"
 				}
 
@@ -88,8 +110,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 121.0, 151.0, 50.0, 20.0 ],
-					"style" : ""
+					"patching_rect" : [ 173.0, 170.0, 50.0, 20.0 ]
 				}
 
 			}
@@ -100,8 +121,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 121.0, 181.0, 61.0, 20.0 ],
-					"style" : "",
+					"patching_rect" : [ 173.0, 195.0, 61.0, 20.0 ],
 					"text" : "average $1"
 				}
 
@@ -113,8 +133,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 80.0, 181.0, 32.0, 20.0 ],
-					"style" : "",
+					"patching_rect" : [ 37.5, 181.0, 32.0, 20.0 ],
 					"text" : "clear"
 				}
 
@@ -128,7 +147,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 561.0, 239.0, 150.0, 18.0 ],
-					"style" : "",
 					"text" : "A typical Max way of doing it:"
 				}
 
@@ -142,7 +160,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 674.0, 17.0, 88.0, 18.0 ],
-					"style" : "",
 					"text" : "Martin Ritter 2008"
 				}
 
@@ -156,7 +173,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 117.0, 99.0, 225.0, 18.0 ],
-					"style" : "",
 					"text" : "Calculate the average of n numbers (max. 2048)"
 				}
 
@@ -170,7 +186,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 52.0, 22.0, 344.0, 33.0 ],
-					"style" : "",
 					"text" : "MRaverage"
 				}
 
@@ -182,8 +197,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 15.0, 601.0, 15.0, 15.0 ],
-					"style" : ""
+					"parameter_enable" : 0,
+					"patching_rect" : [ 15.0, 601.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -200,7 +215,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 86.0, 646.0, 41.0, 19.0 ],
-					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"triscale" : 0.9
@@ -216,9 +230,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 624.0, 80.0, 19.0 ],
-					"style" : "",
-					"text" : "MRaverage 2050"
+					"patching_rect" : [ 15.0, 624.0, 78.0, 19.0 ],
+					"text" : "MRaverage 4444"
 				}
 
 			}
@@ -232,7 +245,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 46.0, 522.0, 48.0, 19.0 ],
-					"style" : "",
 					"text" : "loadbang"
 				}
 
@@ -251,7 +263,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 120.0, 614.0, 50.0, 19.0 ],
-					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"triscale" : 0.9
@@ -265,8 +276,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 46.0, 565.0, 15.0, 15.0 ],
-					"style" : ""
+					"parameter_enable" : 0,
+					"patching_rect" : [ 46.0, 565.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -280,7 +291,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 46.0, 590.0, 84.0, 19.0 ],
-					"style" : "",
 					"text" : "MRaverage 55.3"
 				}
 
@@ -299,7 +309,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 195.0, 594.0, 50.0, 19.0 ],
-					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"triscale" : 0.9
@@ -313,8 +322,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 121.0, 547.0, 15.0, 15.0 ],
-					"style" : ""
+					"parameter_enable" : 0,
+					"patching_rect" : [ 121.0, 547.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -328,7 +337,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 121.0, 570.0, 84.0, 19.0 ],
-					"style" : "",
 					"text" : "MRaverage 55.7"
 				}
 
@@ -340,8 +348,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 78.0, 237.0, 18.0, 18.0 ],
-					"style" : ""
+					"parameter_enable" : 0,
+					"patching_rect" : [ 78.0, 237.0, 18.0, 18.0 ]
 				}
 
 			}
@@ -354,7 +362,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 461.0, 434.0, 49.0, 17.0 ],
-					"style" : "",
 					"text" : "<- mean"
 				}
 
@@ -369,7 +376,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 290.0, 346.0, 49.0, 19.0 ],
-					"style" : "",
 					"text" : "pak 0. 0."
 				}
 
@@ -387,7 +393,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 173.0, 283.0, 35.0, 19.0 ],
-					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"triscale" : 0.9
@@ -405,7 +410,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "int" ],
 					"patching_rect" : [ 528.0, 303.0, 46.0, 19.0 ],
-					"style" : "",
 					"text" : "mean"
 				}
 
@@ -420,7 +424,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 528.0, 282.0, 182.0, 19.0 ],
-					"style" : "",
 					"text" : "pack 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0."
 				}
 
@@ -435,7 +438,6 @@
 					"numoutlets" : 11,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 543.0, 261.0, 161.0, 19.0 ],
-					"style" : "",
 					"text" : "bucket 11"
 				}
 
@@ -461,8 +463,7 @@
 					"setminmax" : [ 0.0, 127.0 ],
 					"setstyle" : 2,
 					"size" : 2,
-					"slidercolor" : [ 1.0, 0.0, 0.0, 1.0 ],
-					"style" : ""
+					"slidercolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 				}
 
 			}
@@ -479,7 +480,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 332.0, 142.0, 35.0, 19.0 ],
-					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"triscale" : 0.9
@@ -494,8 +494,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 290.0, 131.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 290.0, 131.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -509,7 +508,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 290.0, 164.0, 52.0, 19.0 ],
-					"style" : "",
 					"text" : "metro 50"
 				}
 
@@ -524,7 +522,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 290.0, 184.0, 71.0, 19.0 ],
-					"style" : "",
 					"text" : "drunk 128 20"
 				}
 
@@ -548,8 +545,7 @@
 					"peakcolor" : [ 0.498039, 0.498039, 0.498039, 1.0 ],
 					"setminmax" : [ 0.0, 127.0 ],
 					"setstyle" : 2,
-					"settype" : 0,
-					"style" : ""
+					"settype" : 0
 				}
 
 			}
@@ -566,7 +562,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 173.0, 228.0, 35.0, 19.0 ],
-					"style" : "",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"triscale" : 0.9
@@ -583,7 +578,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 117.0, 261.0, 75.0, 19.0 ],
-					"style" : "",
 					"text" : "MRaverage 12"
 				}
 
@@ -597,7 +591,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 461.0, 392.0, 77.0, 17.0 ],
-					"style" : "",
 					"text" : "<- MRaverage"
 				}
 
@@ -612,7 +605,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 191.0, 248.0, 100.0, 27.0 ],
-					"style" : "",
 					"text" : "change Sample size on the fly"
 				}
 
@@ -626,7 +618,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 164.0, 300.0, 100.0, 17.0 ],
-					"style" : "",
 					"text" : "output sample size"
 				}
 
@@ -641,7 +632,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 222.0, 98.0, 27.0 ],
-					"style" : "",
 					"text" : "bang outputs sample size"
 				}
 
