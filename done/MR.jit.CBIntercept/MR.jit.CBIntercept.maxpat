@@ -2,13 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 5,
+			"major" : 8,
+			"minor" : 1,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
+		"classnamespace" : "box",
 		"rect" : [ 34.0, 79.0, 316.0, 318.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -44,7 +45,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
 					"patching_rect" : [ 145.0, 81.0, 34.0, 22.0 ],
-					"style" : "",
 					"text" : "t b 0"
 				}
 
@@ -53,14 +53,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 145.0, 42.0, 25.0, 25.0 ],
-					"presentation_rect" : [ 157.0, 38.0, 0.0, 0.0 ],
-					"style" : ""
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 145.0, 42.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -74,7 +72,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 128.0, 150.0, 170.0, 74.0 ],
-					"style" : "",
 					"text" : " for some reason jit.cellblock sends out \"0 0\" on load... this intercepts it and only lets messages through after the initial load"
 				}
 
@@ -89,7 +86,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 50.0, 102.0, 54.0, 22.0 ],
-					"style" : "",
 					"text" : "t b l"
 				}
 
@@ -104,7 +100,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 50.0, 172.0, 32.5, 22.0 ],
-					"style" : "",
 					"text" : "1"
 				}
 
@@ -119,7 +114,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
 					"patching_rect" : [ 50.0, 142.0, 67.0, 22.0 ],
-					"style" : "",
 					"text" : "onebang 1"
 				}
 
@@ -134,7 +128,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 50.0, 202.0, 54.0, 22.0 ],
-					"style" : "",
 					"text" : "gate 1 0"
 				}
 
@@ -143,13 +136,12 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-43",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 50.0, 42.0, 25.0, 25.0 ],
-					"style" : ""
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 50.0, 42.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -157,20 +149,19 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-62",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.0, 282.0, 25.0, 25.0 ],
-					"style" : ""
+					"patching_rect" : [ 50.0, 282.0, 25.0, 25.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"args" : [ "MR.jit.CBIntercept", 2012, 1, 1, 0, 0, 0, 0 ],
-					"bgmode" : 0,
-					"border" : 0,
+					"bgmode" : 1,
+					"border" : 1,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
@@ -181,7 +172,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 140.5, 262.0, 145.0, 45.0 ],
+					"patching_rect" : [ 145.0, 255.0, 145.0, 59.0 ],
 					"varname" : "MRabstractionPrintBP",
 					"viewvisibility" : 1
 				}
@@ -251,7 +242,23 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "MRabstractionPrintBP.maxpat",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/done/MRabstractionPrint",
+				"patcherrelativepath" : "../MRabstractionPrint",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pngguru.com.png",
+				"bootpath" : "~/Downloads",
+				"patcherrelativepath" : "../../../../../../Downloads",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

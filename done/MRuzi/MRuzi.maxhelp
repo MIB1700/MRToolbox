@@ -2,13 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 1,
+			"revision" : 1,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
+		"classnamespace" : "box",
 		"rect" : [ 100.0, 100.0, 885.0, 607.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -43,8 +44,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 271.0, 209.0, 50.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 166.0, 209.0, 50.0, 22.0 ],
 					"text" : "124"
 				}
 
@@ -56,8 +56,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 720.0, 408.0, 50.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 615.0, 408.0, 50.0, 22.0 ],
 					"text" : "0"
 				}
 
@@ -72,8 +71,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 674.0, 277.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 569.0, 277.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -87,8 +85,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 740.0, 277.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 635.0, 277.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -100,8 +97,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 732.0, 363.0, 34.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 627.0, 363.0, 34.0, 22.0 ],
 					"text" : "print"
 				}
 
@@ -116,8 +112,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 624.0, 406.0, 50.0, 35.0 ],
-					"style" : "",
+					"patching_rect" : [ 519.0, 406.0, 50.0, 35.0 ],
 					"text" : "150.010376"
 				}
 
@@ -131,8 +126,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 615.0, 375.0, 56.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 510.0, 375.0, 56.0, 22.0 ],
 					"text" : "MRtimer"
 				}
 
@@ -144,8 +138,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 624.0, 277.0, 20.0, 20.0 ],
-					"style" : ""
+					"parameter_enable" : 0,
+					"patching_rect" : [ 519.0, 277.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -158,8 +152,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
-					"patching_rect" : [ 608.0, 317.0, 200.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 503.0, 317.0, 200.0, 22.0 ],
 					"text" : "MRuzi 100 0 150 @low 2 @mod 33"
 				}
 
@@ -173,8 +166,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 795.0, 375.0, 150.0, 47.0 ],
-					"style" : "",
+					"patching_rect" : [ 690.0, 375.0, 150.0, 47.0 ],
 					"text" : "metro: 100 iterations, starting at 25 at 150ms intervals"
 				}
 
@@ -186,8 +178,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 720.0, 205.0, 50.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 615.0, 205.0, 50.0, 22.0 ],
 					"text" : "124"
 				}
 
@@ -202,8 +193,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 674.0, 74.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 569.0, 74.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -217,8 +207,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 400.0, 203.0, 50.0, 35.0 ],
-					"style" : "",
+					"patching_rect" : [ 295.0, 203.0, 50.0, 35.0 ],
 					"text" : "5.383997"
 				}
 
@@ -232,8 +221,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 391.0, 172.0, 56.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 286.0, 172.0, 56.0, 22.0 ],
 					"text" : "MRtimer"
 				}
 
@@ -248,8 +236,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 197.0, 202.0, 50.0, 35.0 ],
-					"style" : "",
+					"patching_rect" : [ 92.0, 202.0, 50.0, 35.0 ],
 					"text" : "0.001291"
 				}
 
@@ -263,8 +250,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 207.0, 172.0, 56.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 102.0, 172.0, 56.0, 22.0 ],
 					"text" : "MRtimer"
 				}
 
@@ -279,8 +265,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 740.0, 74.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 635.0, 74.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -292,8 +277,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 732.0, 160.0, 34.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 627.0, 160.0, 34.0, 22.0 ],
 					"text" : "print"
 				}
 
@@ -308,8 +292,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 624.0, 203.0, 50.0, 35.0 ],
-					"style" : "",
+					"patching_rect" : [ 519.0, 203.0, 50.0, 35.0 ],
 					"text" : "150.013123"
 				}
 
@@ -323,8 +306,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 615.0, 172.0, 56.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 510.0, 172.0, 56.0, 22.0 ],
 					"text" : "MRtimer"
 				}
 
@@ -336,8 +318,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 624.0, 74.0, 20.0, 20.0 ],
-					"style" : ""
+					"parameter_enable" : 0,
+					"patching_rect" : [ 519.0, 74.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -350,8 +332,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
-					"patching_rect" : [ 608.0, 114.0, 151.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 503.0, 114.0, 151.0, 22.0 ],
 					"text" : "MRuzi 100 25 150 @low 2"
 				}
 
@@ -365,8 +346,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 765.0, 114.0, 150.0, 47.0 ],
-					"style" : "",
+					"patching_rect" : [ 660.0, 114.0, 150.0, 47.0 ],
 					"text" : "metro: 100 iterations, starting at 25 at 150ms intervals"
 				}
 
@@ -381,8 +361,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 344.0, 203.0, 50.0, 35.0 ],
-					"style" : "",
+					"patching_rect" : [ 239.0, 203.0, 50.0, 35.0 ],
 					"text" : "127.197479"
 				}
 
@@ -397,8 +376,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 132.0, 202.0, 50.0, 35.0 ],
-					"style" : "",
+					"patching_rect" : [ 27.0, 202.0, 50.0, 35.0 ],
 					"text" : "0.309056"
 				}
 
@@ -412,8 +390,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 335.0, 172.0, 56.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 230.0, 172.0, 56.0, 22.0 ],
 					"text" : "MRtimer"
 				}
 
@@ -425,8 +402,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 328.0, 74.0, 20.0, 20.0 ],
-					"style" : ""
+					"parameter_enable" : 0,
+					"patching_rect" : [ 223.0, 74.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -439,8 +416,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
-					"patching_rect" : [ 328.0, 114.0, 128.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 223.0, 114.0, 128.0, 22.0 ],
 					"text" : "MRuzi 100 25 @low 1"
 				}
 
@@ -454,8 +430,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 142.0, 172.0, 56.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 37.0, 172.0, 56.0, 22.0 ],
 					"text" : "MRtimer"
 				}
 
@@ -468,8 +443,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 178.0, 143.0, 150.0, 20.0 ],
-					"style" : "",
+					"patching_rect" : [ 73.0, 143.0, 150.0, 20.0 ],
 					"text" : "normal uzi"
 				}
 
@@ -482,8 +456,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 456.0, 114.0, 90.0, 20.0 ],
-					"style" : "",
+					"patching_rect" : [ 351.0, 114.0, 90.0, 20.0 ],
 					"text" : "low priority uzi"
 				}
 
@@ -495,8 +468,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 135.0, 74.0, 20.0, 20.0 ],
-					"style" : ""
+					"parameter_enable" : 0,
+					"patching_rect" : [ 30.0, 74.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -509,8 +482,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "int" ],
-					"patching_rect" : [ 135.0, 114.0, 128.0, 22.0 ],
-					"style" : "",
+					"patching_rect" : [ 30.0, 114.0, 128.0, 22.0 ],
 					"text" : "MRuzi 100 25 @low 0"
 				}
 
@@ -764,31 +736,31 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-32::obj-12::obj-28" : [ "textbutton[1]", "textbutton", 0 ],
-			"obj-1::obj-12::obj-28" : [ "textbutton[2]", "textbutton", 0 ],
-			"obj-14::obj-12::obj-28" : [ "textbutton[3]", "textbutton", 0 ],
-			"obj-6::obj-12::obj-28" : [ "textbutton[4]", "textbutton", 0 ]
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "MRuzi.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/done/MRuzi",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/done/MRuzi",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MRabstractionPrintBP.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/done/MRabstractionPrint",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/done/MRabstractionPrint",
 				"patcherrelativepath" : "../MRabstractionPrint",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
+				"name" : "pngguru.com.png",
+				"bootpath" : "~/Downloads",
+				"patcherrelativepath" : "../../../../../../Downloads",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "MRtimer.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox/done",
-				"patcherrelativepath" : "..",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/done/MRtimer",
+				"patcherrelativepath" : "../MRtimer",
 				"type" : "JSON",
 				"implicit" : 1
 			}

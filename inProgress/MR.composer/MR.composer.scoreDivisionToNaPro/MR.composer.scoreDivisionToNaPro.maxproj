@@ -2,8 +2,8 @@
 	"name" : "MR.composer.scoreDivisionToNaPro",
 	"version" : 1,
 	"creationdate" : 3652077040,
-	"modificationdate" : 3652078006,
-	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
+	"modificationdate" : 3660750330,
+	"viewrect" : [ 25.0, 79.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -27,6 +27,10 @@
 			}
 
 		}
+,
+		"media" : 		{
+
+		}
 
 	}
 ,
@@ -43,5 +47,6 @@
 	"readonly" : 0,
 	"devpathtype" : 0,
 	"devpath" : ".",
-	"sortmode" : 0
+	"sortmode" : 0,
+	"viewmode" : 0
 }
