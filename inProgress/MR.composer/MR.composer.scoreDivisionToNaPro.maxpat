@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 725.0, 79.0, 680.0, 436.0 ],
+		"rect" : [ 423.0, 175.0, 680.0, 436.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-30",
@@ -216,15 +217,15 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-21",
-					"linecount" : 25,
+					"linecount" : 23,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 629.0, 418.0, 201.0, 342.0 ],
+					"patching_rect" : [ 629.0, 418.0, 201.0, 315.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 26,
-					"presentation_rect" : [ 488.0, 55.0, 172.0, 355.0 ],
-					"text" : "1) set NaPro score to receive network messages on UDP: Tools -> Network Por Panel\n\n2) set Network of patch to same port as enabled in NaPro under \"Incoming Data\"\n\n3) set timesig and tempo for the score in Max (should but must not match NaPro score)\n\n4) set length of piece in seconds (durations longer than this will be wrapped around) and wrapping mode (how to deal with durations longer than the total length)\n\n5) Set the midi pitch at which the note is displayed in NaPro\n\n6) input time values (in secs) either individually or a list\n\n7) hit \"Send to NaPro\""
+					"presentation_linecount" : 24,
+					"presentation_rect" : [ 488.0, 55.0, 172.0, 328.0 ],
+					"text" : "1) set NaPro score to receive network messages on UDP: Tools -> Network Por Panel\n\n2) set Network of patch to same port as enabled in NaPro under \"Incoming Data\"\n\n3) set timesig and tempo for the score in Max (should but must not match NaPro score)\n\n4) set length of piece in seconds - durations longer than this will be wrapped around, folded, or clipped\n\n5) Set the midi pitch at which the note is displayed in NaPro\n\n6) input time values (in secs) either individually or a list\n\n7) hit \"Send to NaPro\""
 				}
 
 			}
@@ -287,7 +288,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 167.96665999999999, 80.0, 82.0, 22.0 ],
+					"patching_rect" : [ 171.0, 86.0, 82.0, 22.0 ],
 					"text" : "loadmess 4 4"
 				}
 
@@ -519,7 +520,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -552,6 +553,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -849,13 +851,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 59.0, 104.0, 785.0, 668.0 ],
+						"rect" : [ 306.0, 79.0, 785.0, 668.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -882,7 +884,23 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-59",
+									"linecount" : 10,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 191.666687000000024, 489.5, 150.0, 141.0 ],
+									"text" : "a notelist is a list of the following data:\n\t\n\t\tpitch (0-127) - 0 is a rest\n\t\tvelocity (0-127) \n\t\tduration (in beats) \n\t\tstaffNo (indexed from 0) \n\t\tvoiceOnStaff (0, 1 or 2)\n\t\tbeat position  (in beats) \n\t\tID \t(any unique integer)"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-10",
 									"maxclass" : "message",
@@ -955,7 +973,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.00000533333332, 535.71606399999996, 85.0, 22.0 ],
+									"patching_rect" : [ 50.00000533333332, 528.71606399999996, 85.0, 22.0 ],
 									"text" : "prepend rnote"
 								}
 
@@ -994,19 +1012,6 @@
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 146.666672000000005, 421.5, 67.0, 22.0 ],
 									"text" : "+ 0."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-50",
-									"linecount" : 2,
-									"maxclass" : "message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 212.666672000000005, 380.0, 18.0, 35.0 ],
-									"text" : "0."
 								}
 
 							}
@@ -1167,7 +1172,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 327.666687000000024, 614.21606399999996, 30.0, 30.0 ]
+									"patching_rect" : [ 406.666702000000043, 614.21606399999996, 30.0, 30.0 ]
 								}
 
 							}
@@ -1179,7 +1184,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 232.666672000000005, 614.21606399999996, 30.0, 30.0 ]
+									"patching_rect" : [ 373.666687000000024, 614.21606399999996, 30.0, 30.0 ]
 								}
 
 							}
@@ -1246,7 +1251,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-75", 0 ],
-									"midpoints" : [ 156.166672000000005, 278.10803199999998, 337.166687000000024, 278.10803199999998 ],
+									"midpoints" : [ 156.166672000000005, 278.10803199999998, 416.166702000000043, 278.10803199999998 ],
 									"order" : 0,
 									"source" : [ "obj-31", 0 ]
 								}
@@ -1296,16 +1301,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-50", 1 ],
-									"order" : 0,
-									"source" : [ "obj-48", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-51", 1 ],
-									"order" : 1,
 									"source" : [ "obj-48", 0 ]
 								}
 
@@ -1329,7 +1325,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-76", 0 ],
-									"midpoints" : [ 156.166672000000005, 453.35803199999998, 242.166672000000005, 453.35803199999998 ],
+									"midpoints" : [ 156.166672000000005, 453.35803199999998, 383.166687000000024, 453.35803199999998 ],
 									"order" : 0,
 									"source" : [ "obj-51", 0 ]
 								}
@@ -1497,7 +1493,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1530,6 +1526,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1861,7 +1858,7 @@
 					"patching_rect" : [ 54.333312999999997, 463.0, 56.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 180.666655999999989, 381.0, 56.0, 24.0 ],
-					"text" : "3."
+					"text" : "21."
 				}
 
 			}
@@ -1876,7 +1873,7 @@
 					"patching_rect" : [ 235.666655999999989, 463.0, 51.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 25.333313, 381.0, 84.0, 24.0 ],
-					"text" : "0 3 0"
+					"text" : "5 1 0"
 				}
 
 			}
@@ -1905,7 +1902,7 @@
 					"patching_rect" : [ 311.0, 463.0, 152.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 276.0, 381.0, 152.0, 24.0 ],
-					"text" : "0 0 3 0"
+					"text" : "0 0 21 0"
 				}
 
 			}
@@ -1974,7 +1971,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-84", 0 ],
+					"destination" : [ "obj-85", 0 ],
 					"source" : [ "obj-12", 0 ]
 				}
 
@@ -2250,28 +2247,28 @@
 		"dependency_cache" : [ 			{
 				"name" : "MR.list.clip.maxpat",
 				"bootpath" : "~/Documents/Music/Max/MRToolbox/done/MR.list/MR.list.clip",
-				"patcherrelativepath" : "../../../../done/MR.list/MR.list.clip",
+				"patcherrelativepath" : "../../done/MR.list/MR.list.clip",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pngguru.com.png",
 				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../../../../../Downloads",
+				"patcherrelativepath" : "../../../../../../Downloads",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MRzlAutoSize.maxpat",
 				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MR.list",
-				"patcherrelativepath" : "../../../MR.list",
+				"patcherrelativepath" : "../MR.list",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MR.list.iter.maxpat",
-				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MR.composer/MR.composer.scoreDivisionToNaPro/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/done/MR.list/MR.list.iter",
+				"patcherrelativepath" : "../../done/MR.list/MR.list.iter",
 				"type" : "JSON",
 				"implicit" : 1
 			}

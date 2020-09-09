@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-16",
@@ -213,7 +214,7 @@
 					"patching_rect" : [ 365.0, 236.0, 115.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 365.0, 236.0, 115.0, 22.0 ],
-					"text" : "port 9232"
+					"text" : "port 9222"
 				}
 
 			}
@@ -269,7 +270,7 @@
 					"patching_rect" : [ 482.0, 308.0, 97.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 482.0, 308.0, 97.0, 22.0 ],
-					"text" : "8"
+					"text" : "27"
 				}
 
 			}
@@ -418,20 +419,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-13::obj-11::obj-25::obj-9" : [ "textbutton[3]", "textbutton", 0 ],
-			"obj-13::obj-10::obj-25::obj-9" : [ "textbutton[5]", "textbutton", 0 ],
-			"obj-13::obj-25::obj-9" : [ "textbutton[2]", "textbutton", 0 ],
-			"obj-13::obj-11::obj-25::obj-28" : [ "textbutton[4]", "textbutton", 0 ],
-			"obj-13::obj-25::obj-28" : [ "textbutton[1]", "textbutton", 0 ],
-			"obj-13::obj-26::obj-12::obj-28" : [ "textbutton[25]", "textbutton", 0 ],
-			"obj-13::obj-10::obj-25::obj-28" : [ "textbutton[6]", "textbutton", 0 ],
-			"parameterbanks" : 			{
-
-			}
-
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "MR.udpSendBP.maxpat",
 				"bootpath" : "~/Documents/Music/Max/MRToolbox/done/MR.udpSend",
@@ -441,16 +428,23 @@
 			}
 , 			{
 				"name" : "MRr_.maxpat",
-				"bootpath" : "~/Documents/Music/Max/MRToolbox/Max 5/done/MRr",
-				"patcherrelativepath" : "../../Max 5/done/MRr",
+				"bootpath" : "~/Documents/Music/Max/Max8/ptolemais/subpatchers",
+				"patcherrelativepath" : "../../../Max8/ptolemais/subpatchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "multiName_.maxpat",
-				"bootpath" : "~/Documents/Music/Max/MRToolbox/Max 5/done/MRr/lib",
-				"patcherrelativepath" : "../../Max 5/done/MRr/lib",
+				"bootpath" : "~/Documents/Music/Max/Max8/ptolemais/subpatchers",
+				"patcherrelativepath" : "../../../Max8/ptolemais/subpatchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pngguru.com.png",
+				"bootpath" : "~/Downloads",
+				"patcherrelativepath" : "../../../../../../Downloads",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
@@ -462,15 +456,8 @@
 			}
 , 			{
 				"name" : "MRzlAutoSize.maxpat",
-				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MR.composer/MR.composer.scoreDivisionToNaPro/patchers",
-				"patcherrelativepath" : "../../inProgress/MR.composer/MR.composer.scoreDivisionToNaPro/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "MRabstractionPrintBP.maxpat",
-				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MR.composer/MR.composer.scoreDivisionToNaPro/patchers",
-				"patcherrelativepath" : "../../inProgress/MR.composer/MR.composer.scoreDivisionToNaPro/patchers",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MR.list",
+				"patcherrelativepath" : "../../inProgress/MR.list",
 				"type" : "JSON",
 				"implicit" : 1
 			}

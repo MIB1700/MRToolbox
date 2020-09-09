@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"args" : [ "MRrandB", 2015, 1, 1, 0, 0, 0, 0, 0 ],
@@ -58,7 +59,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -91,6 +92,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"align" : 2,
@@ -221,7 +223,7 @@
 									"patching_rect" : [ 189.0, 304.0, 136.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 8.0, 4.804688, 128.0, 20.0 ],
-									"text" : "By Martin Ritter 2012"
+									"text" : "By Martin Ritter 2015"
 								}
 
 							}
@@ -573,7 +575,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -729,11 +731,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-42",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 50.0, 40.0, 30.0, 30.0 ]
 				}
 
@@ -742,7 +744,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-43",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -923,44 +925,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "MRrandL.maxpat",
-				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MRrandL",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "MRzlAutoSize.maxpat",
-				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MR.list",
-				"patcherrelativepath" : "../MR.list",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pngguru.com.png",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../../../Downloads",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "MRabstractionPrintBP.maxpat",
-				"bootpath" : "~/Documents/Music/Max/MRToolbox/done/MRabstractionPrint",
-				"patcherrelativepath" : "../../done/MRabstractionPrint",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "MRtype.maxpat",
-				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MRtype",
-				"patcherrelativepath" : "../MRtype",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

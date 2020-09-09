@@ -301,7 +301,7 @@ function indicesMath(list)	{
 			t = localPulses[i].toString() + manip[i];
 		}
 		
-		post("expression = ", t, "\n");
+		//post("expression = ", t, "\n");
 	
 		var ev = 0;
 	
@@ -323,7 +323,7 @@ function rotate(r)	{
 	
 	var temp = origPattern.slice();
 	pattern = temp.rotate(r * -1);
-	post("origPattern = ", origPattern, "\n");	
+	//post("origPattern = ", origPattern, "\n");	
 	if (r == 0)	{
 	
 		pattern = origPattern.slice();
@@ -436,7 +436,7 @@ function drawShape()	{
 					set_line_width(0.005)
 				}
 				
-				post(countI, "\n");
+				//post(countI, "\n");
 				
 				set_source_rgba(0, 0, 0, 0.33);
 				move_to(width * 0.5, height * 0.5);
