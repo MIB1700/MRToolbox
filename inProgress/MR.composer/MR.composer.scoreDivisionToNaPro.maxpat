@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 423.0, 175.0, 680.0, 436.0 ],
+		"rect" : [ 564.0, 342.0, 680.0, 436.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -68,7 +68,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 239.0, 190.0, 150.0, 20.0 ],
+					"patching_rect" : [ 444.000000000000114, 298.5, 52.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 235.666655999999989, 182.0, 35.0, 20.0 ],
 					"text" : "staff "
@@ -479,6 +479,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 19.0, 234.179961999999989, 403.0, 58.0 ],
 					"tabmode" : 0,
+					"text" : "47 29 18 11 7 4",
 					"varname" : "textedit"
 				}
 
@@ -520,7 +521,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -554,6 +555,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-1",
@@ -851,7 +853,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -885,7 +887,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1427,8 +1428,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 364.633361999999977, 115.0, 44.0, 22.0 ],
-					"text" : "tempo"
+					"patching_rect" : [ 364.633361999999977, 115.0, 59.0, 22.0 ],
+					"text" : "tempo $1"
 				}
 
 			}
@@ -1493,7 +1494,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1858,7 +1859,7 @@
 					"patching_rect" : [ 54.333312999999997, 463.0, 56.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 180.666655999999989, 381.0, 56.0, 24.0 ],
-					"text" : "21."
+					"text" : "1."
 				}
 
 			}
@@ -1873,7 +1874,7 @@
 					"patching_rect" : [ 235.666655999999989, 463.0, 51.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 25.333313, 381.0, 84.0, 24.0 ],
-					"text" : "5 1 0"
+					"text" : "0 1 0"
 				}
 
 			}
@@ -1902,7 +1903,7 @@
 					"patching_rect" : [ 311.0, 463.0, 152.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 276.0, 381.0, 152.0, 24.0 ],
-					"text" : "0 0 21 0"
+					"text" : "0 0 1 0"
 				}
 
 			}
@@ -2246,8 +2247,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "MR.list.clip.maxpat",
-				"bootpath" : "~/Documents/Music/Max/MRToolbox/done/MR.list/MR.list.clip",
-				"patcherrelativepath" : "../../done/MR.list/MR.list.clip",
+				"bootpath" : "~/Documents/Music/Max/Max8/glitchTest/glitchTest/patchers",
+				"patcherrelativepath" : "../../../Max8/glitchTest/glitchTest/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -2260,8 +2261,8 @@
 			}
 , 			{
 				"name" : "MRzlAutoSize.maxpat",
-				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MR.list",
-				"patcherrelativepath" : "../MR.list",
+				"bootpath" : "~/Documents/Music/Max/Max8/glitchTest/glitchTest/patchers",
+				"patcherrelativepath" : "../../../Max8/glitchTest/glitchTest/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

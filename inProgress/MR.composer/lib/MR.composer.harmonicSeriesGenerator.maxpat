@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 40.0, 79.0, 1142.0, 733.0 ],
+		"rect" : [ 939.0, 419.0, 372.0, 400.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 				"box" : 				{
 					"comment" : "starting harmonic",
 					"id" : "obj-32",
-					"index" : 6,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -91,7 +91,7 @@
 				"box" : 				{
 					"comment" : "starting harmonic",
 					"id" : "obj-29",
-					"index" : 5,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -104,11 +104,11 @@
 				"box" : 				{
 					"comment" : "normal/reversed",
 					"id" : "obj-28",
-					"index" : 4,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 450.666655999999989, 1.5, 30.0, 30.0 ]
 				}
 
@@ -117,11 +117,11 @@
 				"box" : 				{
 					"comment" : "start midi",
 					"id" : "obj-24",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 299.5, 6.5, 30.0, 30.0 ]
 				}
 
@@ -130,7 +130,7 @@
 				"box" : 				{
 					"comment" : "start  fq",
 					"id" : "obj-21",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -145,11 +145,11 @@
 					"comment" : "no. of harmonics",
 					"hint" : "",
 					"id" : "obj-19",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 75.0, 10.5, 30.0, 30.0 ]
 				}
 
@@ -289,7 +289,7 @@
 					"fontsize" : 12.0,
 					"id" : "obj-7",
 					"maxclass" : "number",
-					"maximum" : 1000,
+					"maximum" : 20,
 					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
@@ -565,7 +565,7 @@
 				"box" : 				{
 					"comment" : "coll individual  [list] ",
 					"id" : "obj-118",
-					"index" : 3,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -591,7 +591,7 @@
 				"box" : 				{
 					"comment" : "MIDI [list]",
 					"id" : "obj-116",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -603,7 +603,7 @@
 				"box" : 				{
 					"comment" : "fq [list]",
 					"id" : "obj-115",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -769,7 +769,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1393,7 +1392,7 @@
 					"patching_rect" : [ 713.0, 190.0, 348.0, 218.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.75, 170.0, 348.0, 218.0 ],
-					"rows" : 2,
+					"rows" : 20,
 					"vsync" : 0
 				}
 
@@ -2450,6 +2449,8 @@
 
 			}
  ],
+		"dependency_cache" : [  ],
+		"autosave" : 0,
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ]
 	}
 
