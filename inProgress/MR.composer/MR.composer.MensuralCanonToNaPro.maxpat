@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 544.0, 79.0, 862.0, 535.0 ],
+		"rect" : [ 544.0, 79.0, 590.0, 535.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-38",
@@ -105,7 +106,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 423.0, 522.0, 82.0, 20.0 ],
-					"text" : "3"
+					"text" : "1"
 				}
 
 			}
@@ -160,13 +161,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-15",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 545.0, 473.0, 150.0, 20.0 ],
+					"patching_rect" : [ 545.0, 473.0, 150.0, 33.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 306.179961999999989, 150.0, 20.0 ],
-					"text" : "list of durations (in beats)"
+					"presentation_rect" : [ 19.0, 306.179961999999989, 156.0, 20.0 ],
+					"text" : "list of pitches (for durations)"
 				}
 
 			}
@@ -230,7 +232,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 19.0, 328.179961999999989, 403.0, 58.0 ],
 					"tabmode" : 0,
-					"text" : "60 64 67",
+					"text" : "60",
 					"varname" : "textedit[1]"
 				}
 
@@ -498,7 +500,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 19.0, 234.179961999999989, 403.0, 58.0 ],
 					"tabmode" : 0,
-					"text" : "1.333 1.333 1.333",
 					"varname" : "textedit"
 				}
 
@@ -514,13 +515,13 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 42.0, 79.0, 712.0, 737.0 ],
+						"rect" : [ 592.0, 79.0, 712.0, 737.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -547,7 +548,20 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 67.0, 619.0, 32.0, 22.0 ],
+									"text" : "print"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-122",
 									"linecount" : 2,
@@ -694,7 +708,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 1,
-											"revision" : 1,
+											"revision" : 7,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -727,6 +741,7 @@
 										"tags" : "",
 										"style" : "",
 										"subpatcher_template" : "",
+										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"comment" : "",
@@ -1385,6 +1400,14 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"order" : 2,
+									"source" : [ "obj-9", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-70", 0 ],
 									"order" : 1,
 									"source" : [ "obj-9", 0 ]
@@ -1481,7 +1504,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 1,
-							"revision" : 1,
+							"revision" : 7,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1514,6 +1537,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -1869,9 +1893,26 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-101", 0 ],
+					"order" : 1,
+					"source" : [ "obj-112", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"midpoints" : [ 399.5, 648.0, 92.166747999999998, 648.0 ],
+					"order" : 0,
 					"source" : [ "obj-112", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"order" : 1,
+					"source" : [ "obj-112", 0 ]
 				}
 
 			}
@@ -1879,6 +1920,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"midpoints" : [ 384.5, 625.0, 540.166747999999984, 625.0 ],
+					"order" : 0,
 					"source" : [ "obj-112", 0 ]
 				}
 
@@ -2193,15 +2235,15 @@
 			}
 , 			{
 				"name" : "MRzlAutoSize.maxpat",
-				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MR.list",
-				"patcherrelativepath" : "../MR.list",
+				"bootpath" : "~/Documents/Music/Max/Max8/glitchTest/glitchTest/patchers",
+				"patcherrelativepath" : "../../../Max8/glitchTest/glitchTest/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MRt.maxpat",
-				"bootpath" : "~/Documents/Music/Max/MRToolbox/Max 5/done",
-				"patcherrelativepath" : "../../Max 5/done",
+				"bootpath" : "~/Documents/Music/Max/Max8/glitchTest/glitchTest/patchers",
+				"patcherrelativepath" : "../../../Max8/glitchTest/glitchTest/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
