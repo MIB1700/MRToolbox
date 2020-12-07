@@ -1,13 +1,8 @@
-#! /usr/bin/env bash
+#! /opt/local/bin/bash
 #-x means print commands as they are executed
 set -x
 
 #get tree view of MRtoolbox directory and write it to the README.md file
-
-# echo "\# MRToolbox" > ../README1.md
-# echo "" > ../README1.md
-# echo "A growing collection of Max tools" > ../README1.md
-# echo "\`\`\`" > ../README1.md
 
 echo -e '# MRToolbox \n\n A growing collection of Max tools... \n\n ```' > ../README.md
 
