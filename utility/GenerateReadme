@@ -9,3 +9,6 @@ echo -e '# MRToolbox \n\n A growing collection of Max tools... \n\n ```' > ../RE
 tree ../ >> ../README.md
 
 echo '```' >> ../README.md
+
+
+echo -e '\n\n\nThis is a constant work in progress... so things might change and/or break at any point...' >> ../README.md
