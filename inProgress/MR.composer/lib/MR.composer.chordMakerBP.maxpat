@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "",
@@ -485,7 +486,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 243.5, 456.0, 37.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 737.666747999999984, 114.179962000000003, 37.0, 22.0 ],
+					"presentation_rect" : [ 871.166747999999984, 114.304016000000033, 37.0, 22.0 ],
 					"text" : "clear"
 				}
 
@@ -548,7 +549,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 63.666747999999998, 456.0, 174.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.166748, 112.179962000000003, 725.5, 23.0 ],
+					"presentation_rect" : [ 8.166748, 108.608032000000037, 861.0, 33.391967999999963 ],
 					"tabmode" : 0,
 					"text" : "89 87 84 78 69 61",
 					"varname" : "textedit"
@@ -1067,22 +1068,22 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "MRt.maxpat",
-				"bootpath" : "~/Documents/Music/Max/MRToolbox/Max 5/done",
-				"patcherrelativepath" : "../../../Max 5/done",
+				"bootpath" : "~/Documents/Music/Max/Max8/glitchTest/glitchTest/patchers",
+				"patcherrelativepath" : "../../../../Max8/glitchTest/glitchTest/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MRr_.maxpat",
-				"bootpath" : "~/Documents/Music/Max/MRToolbox/Max 5/done/MRr",
-				"patcherrelativepath" : "../../../Max 5/done/MRr",
+				"bootpath" : "~/Documents/Music/Max/Max8/ptolemais/subpatchers",
+				"patcherrelativepath" : "../../../../Max8/ptolemais/subpatchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "multiName_.maxpat",
-				"bootpath" : "~/Documents/Music/Max/MRToolbox/Max 5/done/MRr/lib",
-				"patcherrelativepath" : "../../../Max 5/done/MRr/lib",
+				"bootpath" : "~/Documents/Music/Max/Max8/ptolemais/subpatchers",
+				"patcherrelativepath" : "../../../../Max8/ptolemais/subpatchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

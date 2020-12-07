@@ -2,13 +2,14 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 1,
+			"revision" : 8,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
+		"classnamespace" : "box",
 		"rect" : [ 57.0, 79.0, 740.0, 535.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -36,16 +37,16 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-38",
 					"maxclass" : "newobj",
 					"numinlets" : 7,
-					"numoutlets" : 3,
-					"outlettype" : [ "signal", "", "bang" ],
-					"patching_rect" : [ 131.5, 495.0, 317.0, 22.0 ],
-					"style" : "",
-					"text" : "MRrepeater~ @ad 50 50 @repL 1000 @ rep 5 @ bleed 0"
+					"numoutlets" : 4,
+					"outlettype" : [ "signal", "", "bang", "bang" ],
+					"patching_rect" : [ 131.5, 495.0, 308.0, 22.0 ],
+					"text" : "MRrepeater~ @ad 50 50 @repL 1000 @rep 5 @bleed 0"
 				}
 
 			}
@@ -57,7 +58,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 501.0, 350.0, 195.0, 181.0 ],
-					"style" : "",
 					"text" : "inlets:\n1) audio\n2) bang for audio start\n3) length of audio (ms)\n4) attack + decay of original audio (ms); (set of 0 if it's already been treated)\n5) total length of output (ms)\n6) number of repetitions\n7) bleedthorugh: if 0 we have exactly the number of repetitions specified; > 0 starts a ramp on the feedback amount "
 				}
 
@@ -71,7 +71,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 474.0, 268.0, 72.0, 22.0 ],
-					"style" : "",
 					"text" : "loadmess 0"
 				}
 
@@ -85,7 +84,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 393.75, 268.0, 72.0, 22.0 ],
-					"style" : "",
 					"text" : "loadmess 5"
 				}
 
@@ -99,7 +97,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 372.75, 229.0, 92.0, 22.0 ],
-					"style" : "",
 					"text" : "loadmess 1000"
 				}
 
@@ -113,7 +110,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 281.75, 225.0, 82.0, 22.0 ],
-					"style" : "",
 					"text" : "loadmess 50."
 				}
 
@@ -127,8 +123,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 281.75, 268.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 281.75, 268.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -141,8 +136,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 226.25, 268.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 226.25, 268.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -154,7 +148,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 226.25, 298.0, 74.5, 22.0 ],
-					"style" : "",
 					"text" : "pak 50. 50."
 				}
 
@@ -166,8 +159,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 462.0, 386.0, 24.0, 24.0 ],
-					"style" : ""
+					"parameter_enable" : 0,
+					"patching_rect" : [ 462.0, 386.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -178,8 +171,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 81.75, 386.0, 80.0, 13.0 ],
-					"style" : ""
+					"patching_rect" : [ 81.75, 386.0, 80.0, 13.0 ]
 				}
 
 			}
@@ -191,7 +183,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 122.0, 308.0, 36.0, 22.0 ],
-					"style" : "",
 					"text" : "sel 1"
 				}
 
@@ -202,8 +193,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 54.0, 459.0, 45.0, 45.0 ],
-					"style" : ""
+					"patching_rect" : [ 54.0, 459.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -215,7 +205,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 230.0, 386.0, 120.0, 22.0 ],
-					"style" : "",
 					"text" : "100. 500. 500."
 				}
 
@@ -229,8 +218,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 461.75, 298.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 461.75, 298.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -243,8 +231,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 393.75, 298.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 393.75, 298.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -257,8 +244,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 325.75, 298.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 325.75, 298.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -270,7 +256,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 219.5, 121.0, 88.0, 22.0 ],
-					"style" : "",
 					"text" : "open snare.aiff"
 				}
 
@@ -283,7 +268,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 169.5, 225.0, 104.0, 22.0 ],
-					"style" : "",
 					"text" : "383.628113"
 				}
 
@@ -296,7 +280,6 @@
 					"numoutlets" : 6,
 					"outlettype" : [ "int", "int", "float", "float", "", "" ],
 					"patching_rect" : [ 158.5, 193.0, 71.5, 22.0 ],
-					"style" : "",
 					"text" : "sfinfo~"
 				}
 
@@ -309,7 +292,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 81.75, 121.0, 129.0, 22.0 ],
-					"style" : "",
 					"text" : "open 12-pappe04.wav"
 				}
 
@@ -322,8 +304,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 54.0, 63.0, 24.0, 24.0 ],
-					"style" : ""
+					"patching_rect" : [ 54.0, 63.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -340,14 +321,13 @@
 						"followglobaltempo" : 0,
 						"formantcorrection" : 0,
 						"mode" : "basic",
-						"originallength" : [ 368.28302, "ticks" ],
-						"originaltempo" : 120.000008,
+						"originallength" : [ 368.283020000000022, "ticks" ],
+						"originaltempo" : 120.000007999999994,
 						"pitchcorrection" : 0,
 						"quality" : "basic",
 						"timestretch" : [ 0 ]
 					}
 ,
-					"style" : "",
 					"text" : "sfplay~ 1"
 				}
 
@@ -357,10 +337,9 @@
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 7,
-					"numoutlets" : 3,
-					"outlettype" : [ "signal", "", "bang" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "signal", "", "bang", "bang" ],
 					"patching_rect" : [ 54.0, 344.0, 427.0, 22.0 ],
-					"style" : "",
 					"text" : "MRrepeater~"
 				}
 
@@ -568,32 +547,25 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-38::obj-25::obj-28" : [ "textbutton[2]", "textbutton", 0 ],
-			"obj-38::obj-59::obj-27::obj-28" : [ "textbutton[3]", "textbutton", 0 ],
-			"obj-1::obj-59::obj-27::obj-28" : [ "textbutton[1]", "textbutton", 0 ],
-			"obj-1::obj-25::obj-28" : [ "textbutton[4]", "textbutton", 0 ]
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "MRrepeater~.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox (all)/inProgress/MRrepeater~",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MRrepeater~",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MRline.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/MRToolbox (all)/Max 5/done/MRline",
+				"bootpath" : "~/Documents/Music/Max/MRToolbox/Max 5/done/MRline",
 				"patcherrelativepath" : "../../Max 5/done/MRline",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "MRabstractionPrintBP.maxpat",
-				"bootpath" : "~/Documents/Music/Max/Max7/100Days/lib/MRabstractionPrint",
-				"patcherrelativepath" : "../../../100Days/lib/MRabstractionPrint",
-				"type" : "JSON",
+				"name" : "pngguru.com.png",
+				"bootpath" : "~/Downloads",
+				"patcherrelativepath" : "../../../../../../Downloads",
+				"type" : "PNG",
 				"implicit" : 1
 			}
  ],
