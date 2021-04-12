@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 1,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 280.0, 217.0, 314.0, 135.0 ],
+		"rect" : [ 280.0, 217.0, 790.0, 554.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"align" : 2,
@@ -48,7 +49,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 500.0, 252.0, 52.0, 52.0 ],
+					"patching_rect" : [ 508.0, 263.0, 52.0, 52.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 26.0, 21.201172, 32.0, 32.0 ],
 					"rounded" : 385.0,
@@ -492,14 +493,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "pngguru.com.png",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../../../Downloads",
-				"type" : "PNG",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0,
 		"default_bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 		"accentcolor" : [ 0.66, 0.66, 0.72, 1.0 ],

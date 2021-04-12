@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 5,
+			"revision" : 10,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -39,6 +39,33 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-7",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 587.0, 262.5, 150.0, 37.0 ],
+					"presentation_linecount" : 2,
+					"text" : "generate a random port number"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"id" : "obj-5",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 514.0, 132.5, 150.0, 37.0 ],
+					"text" : "generate a random port number"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "message",
@@ -100,7 +127,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 482.0, 115.0, 54.0, 22.0 ],
+					"patching_rect" : [ 482.0, 107.0, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -197,7 +224,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 482.0, 85.0, 58.0, 22.0 ],
+					"patching_rect" : [ 482.0, 77.0, 58.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 482.0, 76.0, 58.0, 22.0 ],
 					"text" : "loadbang"
@@ -214,7 +241,7 @@
 					"patching_rect" : [ 365.0, 236.0, 115.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 365.0, 236.0, 115.0, 22.0 ],
-					"text" : "port 9222"
+					"text" : "port 906"
 				}
 
 			}
@@ -226,7 +253,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 482.0, 147.0, 24.0, 24.0 ],
+					"patching_rect" : [ 482.0, 139.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 482.0, 105.0, 24.0, 24.0 ]
 				}
@@ -270,7 +297,7 @@
 					"patching_rect" : [ 482.0, 308.0, 97.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 482.0, 308.0, 97.0, 22.0 ],
-					"text" : "27"
+					"text" : "9"
 				}
 
 			}
@@ -441,13 +468,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "pngguru.com.png",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../../../Downloads",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "MRrandL.maxpat",
 				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MRrandL",
 				"patcherrelativepath" : "../../inProgress/MRrandL",
@@ -456,8 +476,8 @@
 			}
 , 			{
 				"name" : "MRzlAutoSize.maxpat",
-				"bootpath" : "~/Documents/Music/Max/MRToolbox/inProgress/MR.list",
-				"patcherrelativepath" : "../../inProgress/MR.list",
+				"bootpath" : "~/Documents/Music/Max/Max8/SingingBowls/MR_SingingBowls/patchers",
+				"patcherrelativepath" : "../../../Max8/SingingBowls/MR_SingingBowls/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
